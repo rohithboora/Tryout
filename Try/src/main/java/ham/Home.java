@@ -11,8 +11,10 @@ public class Home {
 		WebElement element = null;
 	public WebElement just()
 	{
+		System.out.println("tRY");
 		System.out.println(element);
 		return driver.findElement(By.id(""));
+		
 	}
 	
 	
@@ -22,4 +24,5 @@ public class Home {
 		 if (element == null) element = driver.findElement(By.name("")); 
 		 return element; 
 	} 
+	 
 }
